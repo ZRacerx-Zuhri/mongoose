@@ -78,7 +78,9 @@ mongoose.connect(
 const User = require("./models/user");
 
 app.get("/", (req, res) => {
-  res.send("Berhasil Connect");
+  res.send(
+    <img src="https://real-agenda.com/wp-content/uploads/2018/10/success.jpg" />
+  );
 });
 //ADD ONE USER
 app.post("/User/input", (req, res) => {
