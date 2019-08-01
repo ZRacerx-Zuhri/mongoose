@@ -5,7 +5,7 @@ const Task = require("./models/task");
 //API
 const express = require("express");
 const app = express();
-const port = 2019;
+const port = process.env.PORT || 2019;
 //cors
 const cors = require("cors");
 
